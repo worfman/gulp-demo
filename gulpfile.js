@@ -8,7 +8,7 @@ var concat = require("gulp-concat");//合并文件
 var sass = require("gulp-sass");//编译sass
 var rename = require("gulp-rename");//文件重命名
 var inject = require("gulp-inject");//文件路径注入
-var connect = require("gulp-connect");//webServer
+var connect = require("gulp-connect");//webServer(服务器)
 
 gulp.task("css",function(){
 	gulp.src(["./src/css/min.css","./src/css/swiper.css"])
